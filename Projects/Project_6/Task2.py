@@ -6,7 +6,7 @@
 
 import random
 def result():
-    fifteen = [random.randint(100, 999) for i in range(15)] # Задан массив из случайных цифр на 15 элементов
+    fifteen = [random.randint(100, 999) for i in range(15)] # Задан массив из случайных цифр от 100 до 999 на 15 элементов
     three = (input("Введите трёхзначное число - "))
     count = 0
     for i in range(0, len(fifteen) - 3): # условие
