@@ -1,7 +1,7 @@
 ﻿from os.path import exists
-from CSV_creating import csv_creating
-from Writing import writing_scv
-from Writing import writing_txt
+from CSV_creating import csv_creating #импортирует метод записи в табличный формат CSV
+from Writing import writing_scv #записывает через запятыую табличный формат CSV
+from Writing import writing_txt #записывает табличный формат TXR
 
 
 path = 'Phonebook.csv'
