@@ -35,7 +35,6 @@ def answer(text):
 
         else:
             return 'Не смог'
-
     except:
         return 'Ошибка'
 
@@ -46,7 +45,6 @@ def start(m, res=False):
 # получение сообщений от клиента
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
-
     s=answer(message.text)
 
     bot.send_message(message.chat.id, s)
