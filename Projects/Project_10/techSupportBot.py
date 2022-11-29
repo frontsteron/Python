@@ -5,7 +5,6 @@ from fuzzywuzzy import fuzz
 bot = telebot.TeleBot('TOKEN_BOT')
 
 # Загружаем список фраз и ответов в массив
-
 mas=[]
 if os.path.exists('https://github.com/frontsteron/Python/blob/main/Projects/Project_10/dialog.txt'):
     f=open('https://github.com/frontsteron/Python/blob/main/Projects/Project_10/dialog.txt', 'r', encoding='UTF-8')
