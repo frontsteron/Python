@@ -9,4 +9,9 @@ y = lambda x: (5*x*x)+(10*x)-30
 xs = np.linspace(-10, 10, 20)
 
 plt.plot(xs, [y(x) for x in xs])
+plt.title('Graph of function') 
+plt.xlabel('X')    
+plt.ylabel('Y')    
 plt.show()
+
+print('Значение функции отрицательно при х <= -1.6')
